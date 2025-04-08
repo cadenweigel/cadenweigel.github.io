@@ -1,15 +1,64 @@
 body {
-    background-color: white;
+    background-color: rgb(231, 231, 231);
+    margin: 20px;
   }
    
   h1 {
     color: rgb(255, 255, 255);
-    background-color: lightblue;
+    background-color: rgb(13, 155, 202);
     text-align: center;
+  }
+
+  h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    font-size: 22px;
+    margin-bottom: 8px;
   }
   
   p {
     font-family: verdana;
-    font-size: 20px;
+    font-size: 14px;
     text-align: left
   }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+a {
+  font-size: 22px; /* or whatever size you prefer */
+  color: #0000EE; /* optional: customize link color */
+}
+
+.main-header {
+  margin-top: -20px; /* counteracts body margin */
+  margin-left: -20px;
+  margin-right: -20px;
+  background-color: rgb(13, 155, 202);
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 2px solid #ccc;
+  width: 100vw; /* 100% of the viewport width */
+  box-sizing: border-box; /* include padding in the width */
+}
+
+.main-header h1 {
+  margin: 0;
+  font-size: 36px;
+  color: #ffffff;
+}
+
+.subtitle {
+  margin: 5px 0 0 0;
+  font-size: 18px;
+  color: #f0f0f0;
+  font-style: italic;
+  text-align: center;
+}
